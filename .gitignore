@@ -1,0 +1,22 @@
+
+# Ignore alexa skill files
+src/*.log
+src/node_modules
+**/*.zip
+
+**/*.pem
+/secrets
+
+
+
+
+/log/*
+*.log
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+
+credentials.csv
+
+

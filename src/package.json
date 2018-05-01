@@ -1,0 +1,30 @@
+{
+  "name": "alexa-iwhere",
+  "version": "1.0.0",
+  "description": "Alexa iWhere Skill",
+  "main": "index.js",
+  "scripts": {
+    "delete-zip": "rimraf ../iwhere.zip",
+    "pre-zip": "npm run delete-zip",
+    "zip": "bestzip ../iwhere.zip ./*",
+    "package": "npm run test && npm run zip"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.com:sycuan/iWhereAlexaSkill.git"
+  },
+  "author": "Ramon Davila",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/davira00/alexa-CI-sample/issues"
+  },
+  "homepage": "https://gitlab.com/sycuan/iWhereAlexaSkill/blob/master/README.md",
+  "devDependencies": {
+    "bestzip": "^1.1.4",
+    "mocha": "^3.5.0",
+    "rimraf": "^2.6.1"
+  },
+  "dependencies": {
+    "alexa-sdk": "^1.0.11"
+  }
+}

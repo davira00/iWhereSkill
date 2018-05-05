@@ -1,0 +1,38 @@
+
+Add contact 
+Add 667-777-6789 to my contacts 
+Add 667-777-6789 to my list of contacts
+
+Sample golden path add contact with no data
+
+User: Alexa ask iWhere to add a new contact to my contact list
+
+		Alexa: Ok. What's the name of the new contact?
+
+User: John Smith
+
+		Alexa: Great, and what's John Smith's phone number?
+
+User: 555-555-5555	
+
+		Alexa: OK I have added John Smith with phone number 555-555-5555 to your contact list?
+
+
+	
+---------------------------------------------------------------
+
+Sample golden path add contact with name 
+
+		
+User: Alexa ask iWhere to Add John Smith to my contacts
+		Alexa: I will add the new contact. What's John Smith's phone number?
+		
+---------------------------------------------------------------
+
+Sample golden path add contact by number
+
+		
+User: Alexa ask iWhere to add 667-777-6789 to my contacts
+		Alexa: I will add it to the contact list. What's the new contact's name?
+
+

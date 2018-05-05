@@ -1,3 +1,19 @@
-HelloWorldIntent hello
-HelloWorldIntent say hello
-HelloWorldIntent say hello world
+## Find contact
+Find john Smith
+Where is John Smith
+Locate John Smith
+
+
+##Add Contact
+Add a new contact  
+Add contact 
+Add John Smith to my list of contacts
+Add John Smith to my contacts
+Add 667-777-6789 to my contacts 
+Add 667-777-6789 to my list of contacts
+
+
+## Edit contact 
+Edit a contact 
+Edit John Smith contact info
+Edit John Smith info

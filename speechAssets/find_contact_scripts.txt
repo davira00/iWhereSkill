@@ -1,0 +1,71 @@
+Sample golden path find request with address
+
+User: Alexa ask iWhere to find John Smith
+		Alexa: I found John Smith, he is at 444 Blueberry Street 
+		
+User: Alexa ask iWhere to locate John Smith
+		Alexa: I found John Smith, he is at 444 Blueberry Street 
+
+
+User: Alexa ask iWhere where is John Smith
+		Alexa: I found John Smith, he is at 444 Blueberry Street 
+		
+---------------------------------------------------------------
+
+Sample golden path find request with known place
+
+User: Alexa ask iWhere to find John Smith
+		Alexa: I found John Smith, he is at 444 Blueberry Street 
+
+		
+User: Alexa ask iWhere to locate John Smith
+		Alexa: I found John Smith, he is at 444 Blueberry Street 
+
+
+User: Alexa ask iWhere where is John Smith
+		Alexa: I found John Smith, he is at 444 Blueberry Street 
+
+
+---------------------------------------------------------------
+
+Sample find request with no response
+
+User: Alexa ask iWhere to find John Smith
+		Alexa: We couldn't get a response from John Smith
+
+---------------------------------------------------------------
+
+Sample find request with reject request
+
+User: Alexa ask iWhere to find John Smith
+		Alexa: John Smith rejected the request for location 
+
+---------------------------------------------------------------
+
+Sample find requests with non existing contact added to contact 
+
+User: Alexa ask iWhere to find John Smith
+		Alexa: I couldn't find John Smith in your list. Would you like to add him as a contact
+		
+User: Yes
+
+		Alexa: (Goes into add contact routine
+
+---------------------------------------------------------------
+
+Sample find requests with non existing contact located by phone number 
+		
+
+User: Alexa ask iWhere to find John Smith
+		Alexa: I couldn't find John Smith in your list. Would you like to add him as a contact
+		
+User: No
+
+		Alexa: I could try to locate the phone number will you like to do that?
+
+User: yes		
+
+		Alexa: Great!, What's the phone number you will like to locate?
+
+---------------------------------------------------------------
+
